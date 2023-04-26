@@ -22,6 +22,7 @@ h1{
     background-color: rgb(0, 19, 75);
     padding: 20px;
     border-radius: 15px;
+    text-align: center;
 }
 
 </style>

@@ -4,8 +4,10 @@ import AppTitle from '../components/AppTitle.vue';
 export default {
     data(){
         return{
-            AppTitle,
         }
+    },
+    components :{
+        AppTitle
     }
 }
 </script>
@@ -21,8 +23,10 @@ export default {
 <style>
 
 .jumbotron {
-    width: 300px;
+    width: 70%;
     height: 500px;
+    margin: 0 auto;
+    padding: 10px;
     background-color: blanchedalmond;
     border: 1px solid black;
 }
